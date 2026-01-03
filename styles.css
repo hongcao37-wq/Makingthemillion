@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 { text-align: center; color: #2c3e50; }
+.inputs { text-align: center; margin: 20px 0; }
+.inputs label { margin: 0 15px; font-weight: bold; }
+.inputs input { width: 80px; padding: 5px; }
+.inputs button { padding: 8px 15px; background: #27ae60; color: white; border: none; cursor: pointer; border-radius: 5px; }
+
+.results-layout {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Stacks on small screens */
+}
+
+.table-section {
+    flex: 2;
+    min-width: 300px;
+    overflow-x: auto; /* Horizontal scroll on very small screens */
+}
+
+.side-panel {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+th, td { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: right; 
+}
+th { background: #ecf0f1; }
+tbody tr.highlight { background: #d5f5e3; font-weight: bold; }
+
+.milestones { 
+    padding: 20px; 
+    background: #eafaf1; 
+    border-radius: 8px; 
+}
+.milestones h2 { margin-top: 0; }
+
+#growthChart {
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 300px !important;  /* Or 700px, 800px — adjust as needed */
+}
+
+@media (max-width: 900px) {
+    .results-layout {
+        flex-direction: column;
+    }
+}
