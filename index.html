@@ -9,14 +9,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>Making The Million</h1>
-	<h2>Power of compound interest</h2>
+        
+	<header style="text-align: left; margin-bottom: 30px;">
+    		<img src="logo.jpg" alt="Making The Million - Compound Interest Calculator Banner" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+	</header>
+	
         <p>See how consistent investing in the stock market (e.g., S&P 500 index fund or ETF) can build wealth through compound interest.</p>
 	<p>The exact time can vary slightly depending on how frequently the interest compounds and whether payments are made at the beginning or end of the period. The figures below assume standard compounding.</p>
-	<h3>Your first $100K is really hard as you are doing most of the work; most of the value in your portfolio comes from your contributions.</h3>
-	<h3>The next $100k will be easier and through compouding interest, your money will start working harder than you (Annual Return > Annual Contribution)</h3>
-
-        <div class="inputs">
+	<p>Your first $100K is really hard as you are doing all the work; most of the value in your portfolio comes from your contributions. Afterward, through the power of compounding interest, your money will start working harder than you.</p>
+	 
+	<div class="inputs">
             <label>Monthly Contribution: $ <input type="number" id="monthly" value="1000" min="100" step="100"></label>
             <label>Expected Annual Return: <input type="number" id="return" value="7" min="1" max="20" step="0.5"> %</label>
             <button onclick="calculate()">Update Calculation</button>
