@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hongcao37-wq.github.io/Makingthemillion/</loc>
+    <loc>https://hongcao37-wq.github.io/Makingthemillion/index.html</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://hongcao37-wq.github.io/Makingthemillion/sp500</loc>
+    <loc>https://hongcao37-wq.github.io/Makingthemillion/sp500.html</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hongcao37-wq.github.io/Makingthemillion/compound-interest</loc>
+    <loc>https://hongcao37-wq.github.io/Makingthemillion/compound-interest.html</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hongcao37-wq.github.io/Makingthemillion/investing101</loc>
+    <loc>https://hongcao37-wq.github.io/Makingthemillion/investing101.html</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  
   <url>
-    <loc>https://hongcao37-wq.github.io/Makingthemillion/about</loc>
+    <loc>https://hongcao37-wq.github.io/Makingthemillion/about.html</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>  
   <url>
-    <loc>https://hongcao37-wq.github.io/Makingthemillion/privacy</loc>
+    <loc>https://hongcao37-wq.github.io/Makingthemillion/privacy.html</loc>
     <lastmod>2026-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
